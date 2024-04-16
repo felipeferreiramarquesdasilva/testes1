@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro em Movimento</title>
+    <style>
+        @keyframes moverCarro {
+            0% { left: 0; }
+            100% { left: calc(100% - 150px); }
+        }
+
+        .carro {
+            position: absolute;
+            bottom: 50px;
+            width: 150px;
+            animation: moverCarro 5s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <p> Silvão em movimento com sua mercedez
+    </p>
+
+    <img src="c:\Users\Felipe Ferreira\Downloads\mercedes-benz_classe-a-sedan_2020_1_29022020_24150_1280_960.jpg" class="carro" alt="Carro em Movimento">
+
+</body>
+</html>
